@@ -1,6 +1,7 @@
 const User = require('../models/User');
 
 const returnSignupPage = (req, res) => {
+    res.send("success")
 }
 
 const returnLoginPage = (req, res) => {
