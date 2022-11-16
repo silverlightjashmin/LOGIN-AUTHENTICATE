@@ -9,7 +9,7 @@ const returnLoginPage = (req, res) => {
 }
 
 const createUser = async (req, res) => {
-
+    res.send("success")
 }
 
 const loginUser = (req, res) => {
