@@ -14,6 +14,7 @@ const createUser = async (req, res) => {
 
 const loginUser = (req, res) => {
     //Code
+    res.send("success")
 }
 
 const logoutUser = (req, res) => {
