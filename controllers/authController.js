@@ -5,6 +5,7 @@ const returnSignupPage = (req, res) => {
 }
 
 const returnLoginPage = (req, res) => {
+    res.send("success")
 }
 
 const createUser = async (req, res) => {
