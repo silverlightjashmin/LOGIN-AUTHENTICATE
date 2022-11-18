@@ -13,13 +13,13 @@ const handleErrors=(err)=>{
         error.email="Email already exists"
     }
 
-    if(err.Error==="incorrect email")
+    if(err.message ==="incorrect email")
     {
         console.log("here email")
         error.email="Email is incorrect"
     }
 
-    if(err.Error==="incorrect password")
+    if(err.message ==="incorrect password")
     {
         console.log("here password")
         error.password="Password Mismatch"
